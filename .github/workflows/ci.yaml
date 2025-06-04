@@ -17,6 +17,9 @@ jobs:
         env:
           - {ROS_DISTRO: noetic, ROS_REPO: main}
           - {ROS_DISTRO: noetic, ROS_REPO: testing}
+          - {ROS_DISTRO: jazzy, ROS_REPO: main}
+          - {ROS_DISTRO: kilted, ROS_REPO: main}
+          - {ROS_DISTRO: rolling, ROS_REPO: main}
 
     env:
       CCACHE_DIR: ${{ github.workspace }}/.ccache
